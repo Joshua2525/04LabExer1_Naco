@@ -20,9 +20,6 @@ namespace Naco_Threads
         public BasicThread()
         {
             InitializeComponent();
-
-
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -32,6 +29,7 @@ namespace Naco_Threads
 
         private void button1_Click(object sender, EventArgs e)
         {
+        
             ThreadA.Name = "Thread A";
             ThreadB.Name = "Thread B";
 
