@@ -19,11 +19,8 @@ namespace Naco_Threads
                 Thread thread = Thread.CurrentThread;
                 Console.WriteLine("Name of Thread: " + thread.Name + " = " + th);
                 Thread.Sleep(5000);
-
             }
-
         }
-
     }
 }
 
